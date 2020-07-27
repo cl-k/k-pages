@@ -1,0 +1,36 @@
+{
+  "name": "k-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "k-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/cl-k/k-pages#readme",
+  "bugs": {
+    "url": "https://github.com/cl-k/k-pages/issues"
+  },
+  "license": "MIT",
+  "author": "k",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cl-k/k-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
