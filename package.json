@@ -4,7 +4,6 @@
   "description": "static web app workflow",
   "keywords": [
     "k-pages",
-    "zce"
   ],
   "homepage": "https://github.com/cl-k/k-pages#readme",
   "bugs": {
@@ -13,9 +12,11 @@
   "license": "MIT",
   "author": "k",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
+  "bin": "bin/k-pages.js",
   "directories": {
     "lib": "lib"
   },
@@ -26,7 +27,23 @@
   "scripts": {
     "lint": "standard --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "browser-sync": "^2.26.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
   "devDependencies": {
     "standard": "^14.3.4"
   },
